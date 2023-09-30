@@ -12,13 +12,14 @@ Make sure you have the following installed:
 
   
 ## Inputs
+- Fullscreen - HI
 - Mouse (RMB) - Place tiles 
 - Space - Start/Pause Game of Life 
 - V - Very fast mode (On/Off, regardless of pause state)
 - G - Gets the hex code of the current state of the board. 
 - H - Hex code input. 
 - C - Clear the board. 
-- Fullscreen - HI
+
 
 ### Installation
 
