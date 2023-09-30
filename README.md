@@ -20,9 +20,7 @@ C - Clear the board.
 
 ### Installation
 
-1. Clone the repository:
 
 ```bash
 git clone https://github.com/lainflux/life-of-py.git
-cd life-of-py
 
