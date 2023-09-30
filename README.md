@@ -11,12 +11,12 @@ Make sure you have the following installed:
 
   
 ## Inputs
-Mouse (RMB) - Place tiles \n
-Space - Start/Pause Game of Life \n
-V - Very fast mode \n
-G - Gets the hex code of the current state of the board. \n
-H - Hex code input. \n
-C - Clear the board. \n
+Mouse (RMB) - Place tiles 
+Space - Start/Pause Game of Life 
+V - Very fast mode 
+G - Gets the hex code of the current state of the board. 
+H - Hex code input. 
+C - Clear the board. 
 
 ### Installation
 
