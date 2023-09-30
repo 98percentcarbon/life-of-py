@@ -18,6 +18,7 @@ V - Very fast mode
 G - Gets the hex code of the current state of the board. 
 H - Hex code input. 
 C - Clear the board. 
+Fullscreen - HI
 
 ### Installation
 
