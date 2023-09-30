@@ -1,5 +1,6 @@
 # life-of-py
 a sandbox of Conway's Game of Life on a toroidal 37x37 grid with support for 'importing'/'exporting' states of the board. 
+Made with lots of help from AI like ChatGPT.
 
 
 ### Prerequisites
