@@ -8,6 +8,7 @@ Make sure you have the following installed:
 
 - Python (any version is probably fine)
 - Pygame library
+- Numpy library
 
   
 ## Inputs
