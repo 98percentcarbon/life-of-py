@@ -3,7 +3,6 @@ A sandbox of Conway's Game of Life on a toroidal 37x37 grid with support for 'im
 Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting the left will emerge from the right, and objects hitting the bottom edge will emerge from the top.
 
 ### Prerequisites
-
 - Python (any version is probably fine)
 - Pygame library
 - Numpy library
