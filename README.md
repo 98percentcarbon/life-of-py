@@ -10,7 +10,7 @@ Make sure you have the following installed:
 - Pygame library
 - Numpy library
 
-  
+
 ## Inputs
 - Fullscreen - HI
 - Mouse (RMB) - Place tiles 
@@ -28,13 +28,13 @@ Make sure you have the following installed:
 - Survival: A live cell with two or three live neighbors survives to the next generation.
 - Death: In all other cases, a cell dies or remains dead in the next generation.
 
-  ## What makes Conway's Game of Life interesting?
-  - Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, infamously being turing-complete on a larger board, the game itself was played in itself.
+## What makes Conway's Game of Life interesting?
+- Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, infamously being turing-complete on a larger board, the game itself was played in itself.
 - The states of the board before the current one are irrelevant, and the ones after are only predictable by simulating them.
-  - patterns and structures have been categorised into different classes, such as still life, oscillators, spaceships, and more.
-  - An example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and completely deterministic. 
+- patterns and structures have been categorised into different classes, such as still life, oscillators, spaceships, and more.
+- An example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and completely deterministic. 
 
-  
+
 
 ### Installation
 
