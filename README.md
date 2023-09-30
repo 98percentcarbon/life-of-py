@@ -29,7 +29,7 @@ Make sure you have the following installed:
 - Death: In all other cases, a cell dies or remains dead in the next generation.
 
 ## What makes Conway's Game of Life interesting?
-- Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, infamously being turing-complete on a larger board, the game itself was played in itself.
+- Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, infamously being turing-complete on a larger board, the game of life was played in itself.
 - The states of the board before the current one are irrelevant, and the ones after are only predictable by simulating them.
 - patterns and structures have been categorised into different classes, such as still life, oscillators, spaceships, and more.
 - An example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and completely deterministic. 
