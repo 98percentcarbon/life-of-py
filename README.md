@@ -6,7 +6,7 @@ a sandbox of Conway's Game of Life on a toroidal 37x37 grid with support for 'im
 
 Make sure you have the following installed:
 
-- Python (version X.X.X)
+- Python (any version is probably fine)
 - Pygame library
 
   
