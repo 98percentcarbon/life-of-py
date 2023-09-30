@@ -4,8 +4,6 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
 - Python (any version is probably fine)
 - Pygame library
 - Numpy library
