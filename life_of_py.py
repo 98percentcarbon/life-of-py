@@ -1,10 +1,8 @@
-#Default libraries with Python
-import time
-import sys
-#Prerequisites
-import numpy as np
 import pygame
-
+import sys
+import numpy as np
+import time
+import os
 
 # Initialize Pygame
 pygame.init()
@@ -31,6 +29,14 @@ GRID_SIZE_X = GRID_SIZE
 GRID_SIZE_Y = GRID_SIZE
 grid = np.zeros((GRID_SIZE_Y, GRID_SIZE_X), dtype=int)
 
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+icon_path = os.path.join(script_dir, 'life.png')
+icon = pygame.image.load(icon_path)
+pygame.display.set_icon(icon)
+
+
+
 screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
 pygame.display.set_caption("Life of Py")
 clock = pygame.time.Clock()
@@ -41,8 +47,6 @@ generation_delay = DEFAULT_DELAY
 
 fast_mode = False
 
-
-#defining functions
 def neighbors(y, x):
     top, bottom, left, right = (y - 1) % GRID_SIZE_Y, (y + 1) % GRID_SIZE_Y, (x - 1) % GRID_SIZE_X, (x + 1) % GRID_SIZE_X
     return [grid[top, left], grid[top, x], grid[top, right], grid[y, left], grid[y, right], grid[bottom, left], grid[bottom, x], grid[bottom, right]]
@@ -52,8 +56,6 @@ def set_grid_from_hex(hex_code):
     binary_array = np.array(list(binary_string.zfill(GRID_SIZE_X * GRID_SIZE_Y)), dtype=int)
     grid[:] = binary_array.reshape((GRID_SIZE_Y, GRID_SIZE_X))
 
-
-#Main, messy code
 while True:
     screen.fill(BLACK)
 
