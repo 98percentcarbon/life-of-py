@@ -33,7 +33,7 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 - Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, being turing-complete on a larger board, infamously, the game of life was played in itself.
 - The states of the board before the current one are irrelevant, and the ones after are only predictable by simulating them.
 - patterns and structures have been categorised into different classes, such as still life, oscillators, spaceships, and more.
-- An example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and completely deterministic. 
+- An great model/example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and the result of each generation is completely deterministic. 
 
 ### Installation
 ```bash
