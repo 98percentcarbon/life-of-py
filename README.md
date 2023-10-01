@@ -23,7 +23,7 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 - C - Clear the board (Only when paused)
 
 ## How to play 
--The state of each cell (tile) evolves in discrete board-wide steps (generations).
+- The state of each cell (tile) evolves in discrete board-wide steps (generations).
 - The rules for a cell in the next generation are based on its current state and the state of its neighbors (the tiles around it in a 3x3 grid):
 - Birth: A dead cell with exactly three live neighbors becomes alive in the next generation.
 - Survival: A live cell with two or three live neighbors survives to the next generation.
