@@ -11,7 +11,7 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 
 ## Inputs
 - Fullscreen - HI
-- Mouse (RMB) - Place tiles 
+- Mouse (LMB) - Place tiles 
 - Space - Pause/Resume
   
 - V - Very fast mode (On/Off, regardless of pause state)
