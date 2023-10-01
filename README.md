@@ -12,11 +12,12 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 ## Inputs
 - Fullscreen - HI
 - Mouse (RMB) - Place tiles 
-- Space - Start/Pause Game of Life 
+- Space - Pause/Resume
+  
 - V - Very fast mode (On/Off, regardless of pause state)
 - G - Gets the hex code of the current state of the board. 
 - H - Hex code input. 
-- C - Clear the board. 
+- C - Clear the board (Only when paused)
 
 ## How to play 
 -The state of each cell (tile) evolves in discrete board-wide steps (generations).
@@ -26,7 +27,7 @@ Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting
 - Death: In all other cases, a cell dies or remains dead in the next generation.
 
 ## What makes Conway's Game of Life interesting?
-- Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, infamously being turing-complete on a larger board, the game of life was played in itself.
+- Conway's Game of Life is extremely simple in rules, but in practice it has an extreme depth, being turing-complete on a larger board, infamously, the game of life was played in itself.
 - The states of the board before the current one are irrelevant, and the ones after are only predictable by simulating them.
 - patterns and structures have been categorised into different classes, such as still life, oscillators, spaceships, and more.
 - An example of Chaos Theory, where initial conditions are extremely sensitive to the end result, and completely deterministic. 
