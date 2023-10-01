@@ -1,3 +1,6 @@
+![Life Of Py Logo](https://i.nuuls.com/IHaEL.png)
+
+
 # life-of-py
 A sandbox of Conway's Game of Life on a toroidal 37x37 grid with support for 'importing'/'exporting' states of the board. 
 Made with lots of help from AI like ChatGPT. Toroidal means that objects hitting the left will emerge from the right, and objects hitting the bottom edge will emerge from the top.
