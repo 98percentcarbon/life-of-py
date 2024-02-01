@@ -1,8 +1,5 @@
-import pygame
-import sys
+import pygame, sys, time, os
 import numpy as np
-import time
-import os
 pygame.init()
 CELL_SIZE = 25
 GRID_WIDTH = 2
