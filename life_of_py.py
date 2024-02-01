@@ -4,7 +4,7 @@ import numpy as np
 import time
 import os
 
-# Initialize Pygame
+# Initialize Pygame IMPORT OS IMPORT OS IMPORT OS
 pygame.init()
 
 # Constants
